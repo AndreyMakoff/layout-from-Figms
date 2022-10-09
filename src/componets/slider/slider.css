@@ -1,0 +1,19 @@
+.slider {
+  position: absolute;
+  align-items: center;
+  left: 605px;
+  top: 1036px;
+  width: 335px;
+  height: 456px;
+}
+.image1 {
+  height: 402px;
+  background-image: url('../../../public/image/fotoslider1.png');
+  border-radius: 25px;
+}
+.image2 {
+  height: 402px;
+
+  background-image: url('../../../public/image/fotoslider2.png');
+  border-radius: 25px;
+}

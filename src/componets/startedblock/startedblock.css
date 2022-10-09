@@ -1,0 +1,81 @@
+.startedblock {
+  position: absolute;
+  width: 1240px;
+  height: 581px;
+  left: 100px;
+  top: 2462px;
+  background: #e91111;
+  border-radius: 60px;
+}
+.title {
+  position: absolute;
+  padding-top: 116px;
+  padding-left: 360px;
+  padding-right: 360px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 68px;
+  text-align: center;
+
+  color: #0f1f1c;
+}
+.startedblock p {
+  position: absolute;
+  padding-top: 282px;
+  padding-left: 340px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 45px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #0f1f1c;
+
+  opacity: 0.5;
+}
+.btn_startedblock {
+  position: absolute;
+  width: 225px;
+  height: 79px;
+
+  left: 508px;
+  top: 412px;
+  border-style: none;
+  background: linear-gradient(129.54deg, #ff7b4e 15.57%, #ff584e 95.03%);
+  border-radius: 27px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #fefefe;
+}
+.btn_startedblock:hover {
+  color: rgb(240, 230, 230);
+  transition: color 0.2s ease-in;
+  background: orangered;
+  cursor: pointer;
+}
+.startedblock_image1 {
+  position: absolute;
+  width: 63px;
+  height: 83px;
+  background-image: url('../../../public/image/cta-el-01.svg');
+  left: 1197px;
+  top: 2536px;
+}
+.startedblock_image2 {
+  position: absolute;
+  width: 63px;
+  height: 83px;
+  background-image: url('../../../public/image/cta-el-02.svg');
+  left: 167px;
+  top: 2900px;
+}

@@ -1,0 +1,179 @@
+.centerblock {
+  max-width: 1440px;
+  background-color: E5E5E5;
+}
+.choice {
+  position: absolute;
+  width: 148px;
+  height: 45px;
+  left: 100px;
+  top: 1060px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+  /* identical to box height */
+  color: #0f1f1c;
+}
+.destination {
+  position: absolute;
+  width: 352px;
+  height: 83px;
+  left: 100px;
+  top: 1105px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 55px;
+  line-height: 82px;
+  /* identical to box height */
+
+  color: #0f1f1c;
+}
+.explorText {
+  position: absolute;
+  width: 456px;
+  height: 76px;
+  left: 100px;
+  top: 1203px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 38px;
+
+  color: #0f1f1c;
+
+  opacity: 0.5;
+}
+.btnExploreNow {
+  position: absolute;
+  width: 223px;
+  height: 79px;
+  left: 100px;
+  top: 1339px;
+  border-style: none;
+  background: linear-gradient(129.54deg, #ff7b4e 15.57%, #ff584e 95.03%);
+  border-radius: 27px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  color: #fefefe;
+}
+.btnExploreNow:hover {
+  background: orangered;
+}
+
+.trainfoto {
+  position: absolute;
+  width: 478px;
+  height: 537px;
+  left: 100px;
+  top: 1692px;
+  background-image: url('../../../public/image/Mask Group.jpg');
+  border-radius: 50px;
+}
+.textWhat {
+  position: absolute;
+  width: 565px;
+  height: 136px;
+  left: 646px;
+  top: 1692px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 68px;
+
+  color: #0f1f1c;
+}
+
+.fotoMen {
+  position: absolute;
+  z-index: 1;
+  width: 134px;
+  height: 134px;
+  left: 646px;
+  top: 1863px;
+  background-image: url('../../../public/image/fotoMen.png');
+  overflow: hidden;
+}
+.circle {
+  position: absolute;
+  z-index: 0;
+  width: 134px;
+  height: 134px;
+  left: 646px;
+  top: 1863px;
+  background: #ff794e;
+  border-radius: 71.5px;
+}
+.title_avatar {
+  height: 98px;
+  width: 231px;
+}
+.title_avatar-name {
+  position: absolute;
+  width: 183px;
+  height: 50px;
+  left: 813px;
+  top: 1845px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 33px;
+  line-height: 50px;
+  /* identical to box height */
+
+  color: #0f1f1c;
+}
+.title_avatar-country {
+  position: absolute;
+  width: 231px;
+  height: 38px;
+  left: 813px;
+  top: 1921px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 38px;
+  /* identical to box height */
+
+  color: #0f1f1c;
+  opacity: 0.5;
+}
+.avatar_des {
+  position: absolute;
+  width: 491px;
+  height: 66px;
+  left: 646px;
+  top: 2057px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 33px;
+
+  color: #0f1f1c;
+
+  opacity: 0.5;
+}
+.star_raiting {
+  position: absolute;
+  width: 327px;
+  height: 59px;
+  left: 646px;
+  top: 2153px;
+  background-image: url('../../../public/image/stars-rating.svg');
+}
